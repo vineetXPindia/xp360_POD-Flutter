@@ -1,9 +1,9 @@
 class ApiConstants{
-  static const String baseUrl = 'https://qaapi.xpindia.in/api';
-  static const String coreUrl = 'https://qacore.xpindia.in/api/v2';
-
-  // static const String baseUrl = 'https://liveapi.xpindia.in/api';
-  // static const String coreUrl = 'https://coreapi.xpindia.in/api/v2';
+  // static const String baseUrl = 'https://qaapi.xpindia.in/api';
+  // static const String coreUrl = 'https://qacore.xpindia.in/api/v2';
+  //
+  static const String baseUrl = 'https://liveapi.xpindia.in/api';
+  static const String coreUrl = 'https://coreapi.xpindia.in/api/v2';
 
   static const String send_otp_for_login = '$baseUrl/send-otp-for-login'; // ?phoneNumber=
   static const String validate_otp = '$baseUrl/login-using-otp'; // ?phoneNumber=9634090220&otp=8326
